@@ -7,3 +7,4 @@ Features
 Upload any image of waste and receive the predicted class instantly.
 
 Easy to run locally using Streamlit.
+Live DEMO:http://localhost:8501/
