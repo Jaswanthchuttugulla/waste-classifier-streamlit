@@ -4,10 +4,22 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 
+# -------- NEW CODE: download model from Google Drive --------
+import os
+import gdown
+
+model_url = 'https://drive.google.com/uc?export=download&id=1vTNpTQlC2Aakll1D_LHMSigfJ_tLm-l2'
+model_path = 'waste_classifier_model.h5'
+
+if not os.path.exists(model_path):
+    st.info("Downloading model file from Google Drive...")
+    gdown.download(model_url, model_path, quiet=False)
+# ------------------------------------------------------------
+
 # Load your model
 model = load_model('waste_classifier_model.h5')
 
-# List your class names in the correct order!
+# List your class names in the correct order
 class_labels = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
 def predict(img):
@@ -21,10 +33,10 @@ def predict(img):
 st.title('Waste Classifier')
 st.write('Upload a waste image to classify.')
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg","jpeg","png"])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     img = Image.open(uploaded_file)
-    st.image(img, caption='Uploaded Image', use_column_width=True)
+    st.image(img, caption="Uploaded Image", use_column_width=True)
     st.write("Classifying...")
     label = predict(img)
     st.success(f"Predicted class: {label}")
