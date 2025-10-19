@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 
-# -------- NEW CODE: download model from Google Drive --------
+# --- Download model from Google Drive if not present ---
 import os
 import gdown
 
@@ -14,10 +14,10 @@ model_path = 'waste_classifier_model.h5'
 if not os.path.exists(model_path):
     st.info("Downloading model file from Google Drive...")
     gdown.download(model_url, model_path, quiet=False)
-# ------------------------------------------------------------
+# ------------------------------------------------------
 
 # Load your model
-model = load_model('waste_classifier_model.h5')
+model = load_model(model_path)
 
 # List your class names in the correct order
 class_labels = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
