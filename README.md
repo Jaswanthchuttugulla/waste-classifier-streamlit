@@ -7,5 +7,6 @@ Features
 Upload any image of waste and receive the predicted class instantly.
 
 Easy to run locally using Streamlit.
+
 live demo:https://waste-classifier-streamlit.onrender.com/
 
