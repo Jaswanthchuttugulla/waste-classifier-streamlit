@@ -86,34 +86,41 @@ Deployed on Render for cloud accessibility
 Inspired by community efforts in environmental sustainability and machine learning for good
 
 ## 🧪 Sample Images
-assets/
-└── sample_images/
-    ├── cardboard/
-    │   ├── ![cardboard9 jpg](https://github.com/user-attachments/assets/43329682-8836-453b-8055-d9be97fae622)
+### cardboard/
+ ![cardboard9 jpg](https://github.com/user-attachments/assets/8ecb2b6a-9814-44ab-8bd7-9104829cf6c4)
+ 
+ ![cardboard246](https://github.com/user-attachments/assets/452ce418-e60d-4c7d-99ed-41e291714a00)
+
+### glass/
+ ![glass97](https://github.com/user-attachments/assets/615d7c8b-93ef-4820-984a-13859542f984)
+ 
+ ![glass325](https://github.com/user-attachments/assets/9ce09f04-98bd-44c2-b743-75b0922f866e)
+
+
+### metal/
+ ![metal9](https://github.com/user-attachments/assets/3570a6d8-3759-4421-8dc2-28f0889628b1)
+
+ ![metal141](https://github.com/user-attachments/assets/41835dd2-75bb-4eb8-8f62-59089b4e7e77)
+
+
+### paper/
+ ![paper9](https://github.com/user-attachments/assets/b79357da-3e28-4ac6-b7f7-26a1ebc659f0)
+  
+ ![paper461](https://github.com/user-attachments/assets/0ab32825-0226-4aad-9358-b056c9e5707b)
+`
+
+### plastic/
+ ![plastic50](https://github.com/user-attachments/assets/fc755112-0c65-4ba0-9fa9-3070d108dbc1)
+
+ ![plastic327](https://github.com/user-attachments/assets/8ea58e3a-aa0b-45ff-a98e-ae33a229e0cd)
 
 
 
-    │   └── cardboard_2.jpg
-    │
-    ├── glass/
-    │   ├── glass_1.jpg
-    │   └── glass_2.jpg
-    │
-    ├── metal/
-    │   ├── metal_1.jpg
-    │   └── metal_2.jpg
-    │
-    ├── paper/
-    │   ├── paper_1.jpg
-    │   └── paper_2.jpg
-    │
-    ├── plastic/
-    │   ├── plastic_1.jpg
-    │   └── plastic_2.jpg
-    │
-    └── trash/
-        ├── trash_1.jpg
-        └── trash_2.jpg
+### trash/
+ ![trash64](https://github.com/user-attachments/assets/97d5de03-e582-4a07-8910-e0741e683449)
+
+ ![trash137](https://github.com/user-attachments/assets/cc15672e-92e8-464b-9cce-bbf2346a3252)
+
 
 
 
