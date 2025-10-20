@@ -85,3 +85,9 @@ Deployed on Render for cloud accessibility
 
 Inspired by community efforts in environmental sustainability and machine learning for good
 
+## 🧪 Sample Images
+
+The repository includes a few sample images in the `assets/sample_images/` folder to test the model predictions.
+
+
+
