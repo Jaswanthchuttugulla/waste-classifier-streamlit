@@ -86,8 +86,35 @@ Deployed on Render for cloud accessibility
 Inspired by community efforts in environmental sustainability and machine learning for good
 
 ## 🧪 Sample Images
+assets/
+└── sample_images/
+    ├── cardboard/
+    │   ├── ![cardboard9 jpg](https://github.com/user-attachments/assets/43329682-8836-453b-8055-d9be97fae622)
 
-The repository includes a few sample images in the `assets/sample_images/` folder to test the model predictions.
+
+
+    │   └── cardboard_2.jpg
+    │
+    ├── glass/
+    │   ├── glass_1.jpg
+    │   └── glass_2.jpg
+    │
+    ├── metal/
+    │   ├── metal_1.jpg
+    │   └── metal_2.jpg
+    │
+    ├── paper/
+    │   ├── paper_1.jpg
+    │   └── paper_2.jpg
+    │
+    ├── plastic/
+    │   ├── plastic_1.jpg
+    │   └── plastic_2.jpg
+    │
+    └── trash/
+        ├── trash_1.jpg
+        └── trash_2.jpg
+
 
 
 
